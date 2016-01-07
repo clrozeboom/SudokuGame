@@ -44,4 +44,9 @@ public class SudokuGameBoard implements GameBoard {
 		return true;
 	}
 
+	@Override
+	public int getNumberAtPosition(int column, int row) {
+		return gameBoard[column][row];
+	}
+
 }

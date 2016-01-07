@@ -39,15 +39,4 @@ public class SudokuApp {
 			e.printStackTrace();
 		}
 	}
-
-	private static void testAddNumberToBoard() {
-		GameBoard board = GameFactory.getSudokuBoard();
-		board.addNumber(3, 2, 2);
-		System.out.println(board.toString());
-	}
-
-	private static void testSudokuBoard() {
-		GameBoard board = GameFactory.getSudokuBoard();
-		System.out.println(board.toString());
-	}
 }

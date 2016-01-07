@@ -6,4 +6,6 @@ public interface GameBoard {
 
 	boolean isFull();
 
+	int getNumberAtPosition(int column, int row);
+
 }
